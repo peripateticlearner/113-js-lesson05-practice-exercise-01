@@ -29,4 +29,3 @@ themeSwitchInput.addEventListener("click", function () {
         h1.innerText = "Party Quincy";
     }
 });
-
