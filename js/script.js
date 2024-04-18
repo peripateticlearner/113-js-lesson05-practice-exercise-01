@@ -6,15 +6,15 @@ var ball = document.querySelector(".ball");
 var h1 = document.querySelector("h1");
 var body = document.querySelector("body");
 
-fans.addEventListener("mouseover", function() {
+fans.addEventListener("mouseover", function () {
     fans.innerText = "123K";
 });
 
-fish.addEventListener("mouseover", function() {
+fish.addEventListener("mouseover", functio n() {
     fish.innerText = "47K";
 });
 
-pets.addEventListener("mouseover", function() {
+pets.addEventListener("mouseover", function () {
     pets.innerText = "20K";
 });
 
@@ -23,7 +23,7 @@ var ball = document.querySelector(".ball");
 var h1 = document.querySelector("h1");
 var body = document.querySelector("body");
 
-toggle.addEventListener("click", function () {
+themeSwitchInput.addEventListener("click", function () {
     if (toggle.classList.contains("light")) {
         toggle.classList.remove("light");
         ball.classList.remove("move-right");
