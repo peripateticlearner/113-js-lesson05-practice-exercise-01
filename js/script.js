@@ -24,12 +24,12 @@ var h1 = document.querySelector("h1");
 var body = document.querySelector("body");
 
 themeSwitchInput.addEventListener("click", function () {
-    if (toggle.classList.contains("light")) {
-        toggle.classList.remove("light");
+    if (body.classList.contains("light")) {
+        body.classList.remove("light");
         ball.classList.remove("move-right");
         h1.innerText = "Stealthy Quincy";
     } else {
-        toggle.classList.add("light");
+        body.classList.add("light");
         ball.classList.add("move-right");
         h1.innerText = "Party Quincy";
     }
