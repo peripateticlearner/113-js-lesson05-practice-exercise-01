@@ -10,7 +10,7 @@ fans.addEventListener("mouseover", function () {
     fans.innerText = "123K";
 });
 
-fish.addEventListener("mouseover", functio n() {
+fish.addEventListener("mouseover", functio () {
     fish.innerText = "47K";
 });
 
